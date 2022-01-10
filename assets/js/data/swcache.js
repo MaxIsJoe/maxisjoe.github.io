@@ -1,54 +1,51 @@
----
-layout: compress
-
-# The list to be cached by PWA
----
-
 const resource = [
 
   /* --- CSS --- */
-  '{{ "/assets/css/style.css" | relative_url }}',
+  '/maxisjoe.github.io/assets/css/style.css',
 
   /* --- JavaScripts --- */
-  {% assign js_path = "/assets/js" | relative_url %}
-  '{{ js_path }}/dist/home.min.js',
-  '{{ js_path }}/dist/page.min.js',
-  '{{ js_path }}/dist/post.min.js',
-  '{{ js_path }}/dist/categories.min.js',
-  '{{ js_path }}/data/search.json',
-  '{{ "/app.js" | relative_url }}',
-  '{{ "/sw.js" | relative_url }}',
+  
+  '/maxisjoe.github.io/assets/js/dist/home.min.js',
+  '/maxisjoe.github.io/assets/js/dist/page.min.js',
+  '/maxisjoe.github.io/assets/js/dist/post.min.js',
+  '/maxisjoe.github.io/assets/js/dist/categories.min.js',
+  '/maxisjoe.github.io/assets/js/data/search.json',
+  '/maxisjoe.github.io/app.js',
+  '/maxisjoe.github.io/sw.js',
 
   /* --- HTML --- */
-  '{{ "/index.html" | relative_url }}',
-  '{{ "/404.html" | relative_url }}',
-  {% for tab in site.tabs %}
-    '{{ tab.url | relative_url }}',
-  {% endfor %}
+  '/maxisjoe.github.io/index.html',
+  '/maxisjoe.github.io/404.html',
+  
+    '/maxisjoe.github.io/categories/',
+  
+    '/maxisjoe.github.io/tags/',
+  
+    '/maxisjoe.github.io/archives/',
+  
+    '/maxisjoe.github.io/about/',
+  
 
   /* --- Favicons --- */
-  {% assign favicon_path = "/assets/img/favicons" | relative_url %}
+  
 
-  '{{ favicon_path }}/android-chrome-192x192.png',
-  '{{ favicon_path }}/android-chrome-512x512.png',
-  '{{ favicon_path }}/apple-touch-icon.png',
-  '{{ favicon_path }}/favicon-16x16.png',
-  '{{ favicon_path }}/favicon-32x32.png',
-  '{{ favicon_path }}/favicon.ico',
-  '{{ favicon_path }}/mstile-150x150.png',
-  '{{ favicon_path }}/site.webmanifest',
-  '{{ favicon_path }}/browserconfig.xml'
+  '/maxisjoe.github.io/assets/img/favicons/android-chrome-192x192.png',
+  '/maxisjoe.github.io/assets/img/favicons/android-chrome-512x512.png',
+  '/maxisjoe.github.io/assets/img/favicons/apple-touch-icon.png',
+  '/maxisjoe.github.io/assets/img/favicons/favicon-16x16.png',
+  '/maxisjoe.github.io/assets/img/favicons/favicon-32x32.png',
+  '/maxisjoe.github.io/assets/img/favicons/favicon.ico',
+  '/maxisjoe.github.io/assets/img/favicons/mstile-150x150.png',
+  '/maxisjoe.github.io/assets/img/favicons/site.webmanifest',
+  '/maxisjoe.github.io/assets/img/favicons/browserconfig.xml'
 
 ];
 
 /* The request url with below domain will be cached */
 const allowedDomains = [
-  {% if site.google_analytics.id != '' %}
-    'www.googletagmanager.com',
-    'www.google-analytics.com',
-  {% endif %}
+  
 
-  '{{ site.url | split: "//" | last }}',
+  'localhost:4000',
 
   'fonts.gstatic.com',
   'fonts.googleapis.com',
@@ -58,7 +55,6 @@ const allowedDomains = [
 
 /* Requests that include the following path will be banned */
 const denyUrls = [
-  {% if site.google_analytics.pv.cache_path %}
-    '{{ site.google_analytics.pv.cache_path | absolute_url }}'
-  {% endif %}
+  
 ];
+
