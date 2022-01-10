@@ -1,0 +1,20 @@
+---
+title: My First Post and a rant about how much i hate the modern web
+author:
+  name: MaxIsJoe
+  link: https://github.com/MaxIsJoe
+date: 2022-01-10 11:33:00 +0800
+categories: [Blogging]
+tags: [E]
+math: true
+mermaid: true
+---
+
+I honestly prefer when I was making an entire website in Godot but like someone once said; I'm using a broadsword to spread butter with that technique. 
+I'll keep trying to make this new website work by publishing blogs and stuff, maybe even make this a public diary. Who knows? Maybe with time i'll come to like this and switch over to this new system that I've always disliked.
+
+I never liked how the web is bloated nowadays and I usually tend to avoid using my web browser unless I'm listening to music, watching videos on youtube, reading the docs of a game engine/framework, browsing newgrounds or looking for solutions for specific problems. But like a moth that keeps getting attracted to the light; I keep finding myself returning to websites like Twitter and Reddit and the whole time while I'm using them I miss more and more a time where things were much simpler and websites didn't look so generic and boring. I liked the old blocky simple designs websites had, it gives off a feeling that I can't describe until this day where websites felt more.. welcoming.. when they had that pre-2015 design that favored functionality over looks and branding. Some websites like Reddit even let you design the experience for your audience which made communities feel more connected with each other and outsiders could still enjoy (and sometimes wonder) the vibes a community gave by just their quirky interactive banners and all the subreddit's text and icons getting replaced with a lot of inside jokes and references around the community. But now all whats left is changing the name of online and subscriber count on a subreddit and thats it.
+
+A part of me wants to return to the Flash era of the internet and have our portfolios blaring our favorite music as soon as someone loads into our websites, but I personally think that we'd be exchanging an evil for another one as like i said, I don't like bloat. Flash was incredibly slow and was over used for the wrong reasons in a lot of websites (especially public sector / government stuff) and it was an old relic of a time where Flash was the only way for websites to have interactive content (away from the Java web plugin). But I'd like more websites to embrace just having pure a pure HTML and CSS setup without using Javascript and turning every website into a slow application that runs in your browser.
+
+This blog is going to be a learning experience for me, I've always hated Ruby, Javascript, Angular, all that stuff, But I've never given any of them a fair chance to fully justify that hatred. I'm going to use Jekyll and Ruby to get this blog running and I'll experiment with a lot of stuff until I fully understand what I hate about it.
