@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MaxIsJoe</title>
-    <link>http://maxisjoe.github.io/</link>
+    <link>/</link>
     <description>Recent content on MaxIsJoe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jan 2022 01:11:41 +0200</lastBuildDate><atom:link href="http://maxisjoe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jan 2022 01:11:41 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://maxisjoe.github.io/posts/my-first-post/</link>
+      <link>/posts/my-first-post/</link>
       <pubDate>Sat, 29 Jan 2022 01:11:41 +0200</pubDate>
       
-      <guid>http://maxisjoe.github.io/posts/my-first-post/</guid>
+      <guid>/posts/my-first-post/</guid>
       <description></description>
       <content></content>
     </item>
