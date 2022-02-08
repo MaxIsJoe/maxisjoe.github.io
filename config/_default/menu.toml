@@ -26,6 +26,13 @@
   url = "https://www.youtube.com/channel/UC6tu295Ds0PbaMAO8uvraaw"
   weight = 1
 
+[[main]]
+  name = "Twitter"
+  identifier = "twit"
+  parent = "Find Me"
+  url = "https://twitter.com/xMaximusJoe"
+  weight = 1
+
 
 [[main]]
   name = "Ko-fi"
