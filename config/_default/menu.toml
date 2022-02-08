@@ -11,3 +11,33 @@
   parent = "Find Me"
   url = "maxisjoe.xyz"
   weight = 1
+
+[[main]]
+  name = "Discord Server"
+  identifier = "DiscordServer"
+  parent = "Find Me"
+  url = "https://discord.gg/6zj22Ux"
+  weight = 1
+
+[[main]]
+  name = "YouTube"
+  identifier = "YTChannel"
+  parent = "Find Me"
+  url = "https://www.youtube.com/channel/UC6tu295Ds0PbaMAO8uvraaw"
+  weight = 1
+
+
+[[main]]
+  name = "Ko-fi"
+  identifier = "kofi"
+  parent = "Support Me"
+  url = "https://ko-fi.com/maxisjoe"
+  weight = 1
+
+
+[[main]]
+  name = "Patreon"
+  identifier = "Patreon"
+  parent = "Support Me"
+  url = "https://www.patreon.com/MaxIsJoe"
+  weight = 1
