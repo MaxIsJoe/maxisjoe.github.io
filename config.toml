@@ -1,0 +1,43 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'MaxIsJoe'
+theme = "hugo-theme-bootstrap"
+author.name = "MaxIsJoe"
+author.bio = "Just some random game developer"
+author.avatar = "images/miu.png"
+location = "Mars"
+
+[headers]
+for = "/*"
+[headers.values]
+Referrer-Policy = "strict-origin-when-cross-origin"
+X-Content-Type-Options = "nosniff"
+X-Frame-Options = "deny"
+X-XSS-Protection = "1; mode=block"
+
+[social]
+  email = "maxisjoe@tutanota.com"
+  github = "MaxIsJoe"
+  twitter = "xMaximusJoe"
+  reddit = "MaxIsJoe"
+
+defaultContentLanguage = "en"
+
+paginate = 10
+# paginatePath = "page"
+
+enableRobotsTXT = true
+
+enableEmoji = true
+
+pygmentsUseClasses = true
+
+[mediaTypes]
+  [mediaTypes."application/manifest+json"]
+    suffixes = ["json"]
+  
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  

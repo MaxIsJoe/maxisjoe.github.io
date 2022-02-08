@@ -1,0 +1,13 @@
+[[main]]
+  name = "Newgrounds"
+  identifier = "NG"
+  parent = "Find Me"
+  url = "https://maxisjoe.newgrounds.com/"
+  weight = 1
+
+[[main]]
+  name = "Old Site"
+  identifier = "OldSite"
+  parent = "Find Me"
+  url = "maxisjoe.xyz"
+  weight = 1

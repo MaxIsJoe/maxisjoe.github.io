@@ -1,0 +1,8 @@
+color = "dark"
+poweredBy = false
+logo = false
+readingTime = true 
+postDate = true
+
+taxonomyPostCount = 20
+countTaxonomyPosts = true
