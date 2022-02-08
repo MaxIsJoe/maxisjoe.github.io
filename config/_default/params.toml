@@ -7,5 +7,7 @@ postDate = true
 taxonomyPostCount = 20
 countTaxonomyPosts = true
 
+disqusShortname = "mij-2"
+
 [post]
   copyright = false
