@@ -5,7 +5,7 @@ theme = "hugo-theme-bootstrap"
 author.name = "MaxIsJoe"
 author.bio = "Just some random game developer"
 author.avatar = "images/miu.png"
-location = "Mars"
+author.location = "Mars"
 
 [headers]
 for = "/*"
@@ -29,6 +29,8 @@ paginate = 10
 enableRobotsTXT = true
 
 enableEmoji = true
+
+disqusShortname = "MaxIsJoe"
 
 pygmentsUseClasses = true
 

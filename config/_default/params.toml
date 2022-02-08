@@ -6,3 +6,6 @@ postDate = true
 
 taxonomyPostCount = 20
 countTaxonomyPosts = true
+
+[post]
+  copyright = false
